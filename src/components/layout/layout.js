@@ -5,7 +5,6 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import HeaderSection from './header';
 // import Footer from './footer';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/layout.css';
 
 const Layout = ({ children }) => {
