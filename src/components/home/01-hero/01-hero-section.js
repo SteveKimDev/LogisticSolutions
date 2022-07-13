@@ -7,29 +7,29 @@ import * as Home from '../home.module.css';
 
 const HeroSection = () => {
   const fadeInUp1 = useSpring({
-    from: { opacity: 0, translateY: '20px' },
+    from: { opacity: 0, translateY: '30px' },
     to: { opacity: 1, translateY: '0px' },
     config: { duration: 1000 },
   });
 
   const fadeInUp2 = useSpring({
-    from: { opacity: 0, translateY: '20px' },
-    to: { opacity: 1, translateY: '0px' },
-    delay: 250,
-    config: { duration: 1000 },
-  });
-
-  const fadeInUp3 = useSpring({
-    from: { opacity: 0, translateY: '20px' },
+    from: { opacity: 0, translateY: '30px' },
     to: { opacity: 1, translateY: '0px' },
     delay: 500,
     config: { duration: 1000 },
   });
 
-  const fadeInUp4 = useSpring({
-    from: { opacity: 0, translateY: '20px' },
+  const fadeInUp3 = useSpring({
+    from: { opacity: 0, translateY: '30px' },
     to: { opacity: 1, translateY: '0px' },
-    delay: 750,
+    delay: 1000,
+    config: { duration: 1000 },
+  });
+
+  const fadeInUp4 = useSpring({
+    from: { opacity: 0, translateY: '30px' },
+    to: { opacity: 1, translateY: '0px' },
+    delay: 1500,
     config: { duration: 1000 },
   });
 
@@ -39,9 +39,11 @@ const HeroSection = () => {
       <animated.h1 style={fadeInUp1} className={Home.heroTitle1}>
         Transform
       </animated.h1>
+
       <animated.h1 style={fadeInUp2} className={Home.heroTitle2}>
         Ideas Into
       </animated.h1>
+
       <animated.h1 style={fadeInUp3} className={Home.heroTitle3}>
         Achievements
       </animated.h1>

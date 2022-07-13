@@ -61,3 +61,9 @@ a {
 .offcanvas-backdrop {
   display: none;
 }
+
+@media (max-width: 575px) {
+  .transform {
+    transform: none !important;
+  }
+}

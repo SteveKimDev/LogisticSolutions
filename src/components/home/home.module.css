@@ -113,8 +113,8 @@
 }
 
 .hero-cta a {
-  color: #00acc1;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #00acc1;
   border: #00acc1 solid 2px;
   padding: 15px 30px;
   border-radius: 50px;
@@ -126,10 +126,12 @@
 
 .hero-cta a:hover {
   color: #ffffff;
-  background-color: #00acc1;
+  background-color: #007c91;
+  border: #007c91 solid 2px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.35);
 }
 
-.hero-img {
+.hero-img-div {
   position: absolute;
   top: 150px;
   right: 50px;
@@ -137,7 +139,7 @@
   z-index: -100;
 }
 
-.hero-img::after {
+.hero-img-div::after {
   content: ' ';
   position: absolute;
   top: 0;
@@ -164,10 +166,9 @@
   padding: 50px;
   box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.35);
   position: absolute;
-  top: 50%;
+  top: 100px;
   left: -25%;
   width: 100%;
-  transform: translateY(-50%);
 }
 
 .service-copy-div h3 {
@@ -210,7 +211,6 @@
     bottom: -50px;
     left: -25px;
     width: 125%;
-    transform: translateY(0);
   }
 
   .service-copy-div h3 {
@@ -267,19 +267,19 @@
     margin-top: 80px;
   }
 
-  .hero-img {
+  .hero-img-div {
     top: 125px;
     right: 30px;
     width: 60%;
   }
 
-  .hero-img::after {
+  .hero-img-div::after {
     background-color: rgba(255, 255, 255, 0.4);
   }
 
   /* service section */
   .service-row {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
   }
 
   .service-img {
@@ -288,13 +288,13 @@
   }
 
   .service-copy-div {
+    box-shadow: none;
     padding: 25px;
     position: relative;
     top: auto;
     bottom: auto;
     left: auto;
     width: 100%;
-    transform: translateY(0);
   }
 
   .service-copy-div h3 {

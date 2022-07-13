@@ -1,15 +1,20 @@
 import * as React from 'react';
-import { StaticImage } from 'gatsby-plugin-image';
+import { ParallaxBanner } from 'react-scroll-parallax';
 
 import * as Home from '../home.module.css';
 
 const HeroImg = () => {
   return (
-    <div>
-      <StaticImage
-        src='https://res.cloudinary.com/stevekim/image/upload/q_auto/v1657579446/Logistic%20Solutions/hero-img_rb702f.webp'
-        alt='about img'
-        className={Home.heroImg}
+    <div className={Home.heroImgDiv}>
+      <ParallaxBanner
+        layers={[
+          {
+            image:
+              'https://res.cloudinary.com/stevekim/image/upload/q_auto/v1657579446/Logistic%20Solutions/hero-img_rb702f.webp',
+            speed: -10,
+          },
+        ]}
+        style={{ aspectRatio: '1/ 1' }}
       />
     </div>
   );

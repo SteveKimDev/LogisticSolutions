@@ -124,15 +124,6 @@
 }
 
 @media (max-width: 1199px) {
-  .stack-section {
-    background-color: transparent;
-    border-bottom: none;
-  }
-
-  .menu-text {
-    color: #ffffff;
-  }
-
   .stack-link {
     display: none;
   }
