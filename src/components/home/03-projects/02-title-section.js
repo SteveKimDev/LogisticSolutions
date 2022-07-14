@@ -4,7 +4,7 @@ import * as Home from '../home.module.css';
 
 const TitleSection = () => {
   return (
-    <div className={Home.titleSection}>
+    <div className={`${Home.titleSection} ${Home.projectsTitleSection}`}>
       <h2>We Make Complex Projects Look Simple</h2>
       <p>
         Our experience in solving large-scale problems on the largest of stages
