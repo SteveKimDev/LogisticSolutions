@@ -4,6 +4,7 @@ import Seo from '../components/layout/seo';
 
 import HeroSection from '../components/home/01-hero/01-hero-section';
 import ServicesSection from '../components/home/02-services/01-services-section';
+import ProjectSection from '../components/home/03-projects/01-project-section';
 
 import * as Home from '../components/home/home.module.css';
 
@@ -15,6 +16,7 @@ const IndexPage = () => (
       <HeroSection />
       <ServicesSection />
     </div>
+    <ProjectSection />
   </Layout>
 );
 
