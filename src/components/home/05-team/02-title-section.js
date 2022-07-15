@@ -24,10 +24,10 @@ const TitleSection = () => {
         }}
       />
       <animated.div style={fadeInUp} className={Home.titleSection}>
-        <h2>What We Do For You</h2>
+        <h2>Our Team</h2>
         <p>
-          Our extensive history of providing logistics includes all elements, so
-          that your event goes off without a hitch.
+          This is our dedicated team who work day-in and day-out together to
+          bring our clients the most amazing projects for a successful event.
         </p>
       </animated.div>
     </>
