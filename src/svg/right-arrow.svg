@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Vector</title>
+    <g id="Line-Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Xnix/Line/Arrow_Right" transform="translate(-4.000000, -6.000000)" stroke="#000000" stroke-width="1.5">
+            <g id="Vector" transform="translate(5.000000, 7.000000)">
+                <path d="M5.25,0 L0,5 M0,5 L5.25,10 M0,5 L14,5" id="Vector-12" transform="translate(7.000000, 5.000000) rotate(-180.000000) translate(-7.000000, -5.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

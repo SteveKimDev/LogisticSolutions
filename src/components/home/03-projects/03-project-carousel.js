@@ -4,6 +4,8 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
 
+import PreviousChevron from '../../../svg/previous-chevron.svg';
+import NextChevron from '../../../svg/next-chevron.svg';
 import Project1 from './04-project1';
 import Project2 from './05-project2';
 import Project3 from './06-project3';
@@ -16,7 +18,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import * as Home from '../home.module.css';
 
 export default class ProjectCarousel extends Component {
-  // PreviousNext Method
+  // previousNext Method
   constructor(props) {
     super(props);
     this.next = this.next.bind(this);
@@ -68,11 +70,11 @@ export default class ProjectCarousel extends Component {
       <div className={Home.carouselSection}>
         <div className={Home.carouselNavDiv}>
           <button className={Home.carouselPreviousBtn} onClick={this.previous}>
-            Previous
+            <PreviousChevron className={Home.chevronIcons} />
           </button>
-          <span>{this.state.activeSlide} | 6</span>
+          <div className={Home.carouselIndex}>{this.state.activeSlide} | 6</div>
           <button className={Home.carouselNextBtn} onClick={this.next}>
-            Next
+            <NextChevron className={Home.chevronIcons} />
           </button>
         </div>
 

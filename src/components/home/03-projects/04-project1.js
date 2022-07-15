@@ -14,7 +14,7 @@ const Project1 = () => {
           className={Home.carouselImg}
         />
         <h3>Project 1</h3>
-        <p>Click To Learn More</p>
+        <p>Project Short Description</p>
       </Link>
     </div>
   );

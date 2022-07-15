@@ -17,55 +17,55 @@ import * as Home from '../home.module.css';
 
 const ServicesSection = () => {
   return (
-    <section className={Home.section}>
+    <section className={Home.section} id='services'>
       <TitleSection />
 
       {/* service 1 */}
       <Row className={Home.serviceRow}>
-        <Col xl={7} md={12}>
+        <Col xl={7} sm={12}>
           <ServiceImg1 />
         </Col>
-        <Col xl={5} md={7} style={{ position: 'relative' }}>
+        <Col xl={5} sm={7} style={{ position: 'relative' }}>
           <ServiceCopy1 />
         </Col>
       </Row>
 
       {/* service 2 */}
       <Row className={Home.serviceRow}>
-        <Col xl={7} md={12}>
+        <Col xl={7} sm={12}>
           <ServiceImg2 />
         </Col>
-        <Col xl={5} md={7} style={{ position: 'relative' }}>
+        <Col xl={5} sm={7} style={{ position: 'relative' }}>
           <ServiceCopy2 />
         </Col>
       </Row>
 
       {/* service 3 */}
       <Row className={Home.serviceRow}>
-        <Col xl={7} md={12}>
+        <Col xl={7} sm={12}>
           <ServiceImg3 />
         </Col>
-        <Col xl={5} md={7} style={{ position: 'relative' }}>
+        <Col xl={5} sm={7} style={{ position: 'relative' }}>
           <ServiceCopy3 />
         </Col>
       </Row>
 
       {/* service 4 */}
       <Row className={Home.serviceRow}>
-        <Col xl={7} md={12}>
+        <Col xl={7} sm={12}>
           <ServiceImg4 />
         </Col>
-        <Col xl={5} md={7} style={{ position: 'relative' }}>
+        <Col xl={5} sm={7} style={{ position: 'relative' }}>
           <ServiceCopy4 />
         </Col>
       </Row>
 
       {/* service 5 */}
       <Row>
-        <Col xl={7} md={12}>
+        <Col xl={7} sm={12}>
           <ServiceImg5 />
         </Col>
-        <Col xl={5} md={7} style={{ position: 'relative' }}>
+        <Col xl={5} sm={7} style={{ position: 'relative' }}>
           <ServiceCopy5 />
         </Col>
       </Row>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Vector</title>
+    <g id="Line-Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Xnix/Line/Arrow_Left_5" transform="translate(-9.000000, -6.000000)" stroke="#00acc1" stroke-width="1.5">
+            <g id="Vector" transform="translate(10.000000, 7.000000)">
+                <polyline id="vector-3" points="5 0 0 5 5 10"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

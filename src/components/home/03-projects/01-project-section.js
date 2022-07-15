@@ -7,7 +7,10 @@ import * as Home from '../home.module.css';
 
 const ProjectSection = () => {
   return (
-    <section className={`${Home.section} ${Home.projectsSection}`}>
+    <section
+      className={`${Home.section} ${Home.projectsSection}`}
+      id='projects'
+    >
       <TitleSection />
       <ProjectCarousel />
     </section>

@@ -68,7 +68,15 @@ a {
   }
 }
 
-/* React Multi Carousel style */
-/* .react-multi-carousel-dot-list {
-  bottom: -100px !important;
-} */
+/* React Slick Carousel style */
+.slick-dots {
+  bottom: -35px !important;
+}
+
+.slick-dots li button:before {
+  font-size: 30px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #00acc1 !important;
+}
