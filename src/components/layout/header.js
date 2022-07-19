@@ -2,8 +2,9 @@ import * as React from 'react';
 import Stack from 'react-bootstrap/Stack';
 import { Link } from 'gatsby';
 
-import * as Header from './style/header.module.css';
 import OffCanvasBtn from './canvas-menu';
+
+import * as Header from './style/header.module.css';
 
 const HeaderSection = () => {
   return (
