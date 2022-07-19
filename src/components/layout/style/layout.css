@@ -72,7 +72,7 @@ a {
 }
 
 .slick-dots li button:before {
-  font-size: 30px !important;
+  font-size: 15px !important;
 }
 
 .slick-dots li.slick-active button:before {

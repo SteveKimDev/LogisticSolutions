@@ -21,7 +21,7 @@ const ContactScetion = () => {
     config: { duration: 1000 },
   });
   return (
-    <section className={Home.section}>
+    <section className={Home.section} id='contact'>
       <TitleSection />
 
       {/* contact form */}
