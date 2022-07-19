@@ -15,7 +15,7 @@ import Project6 from './09-project6';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import '../../layout/style/layout.css';
+
 import * as Home from '../home.module.css';
 
 export default class ProjectCarousel extends Component {
