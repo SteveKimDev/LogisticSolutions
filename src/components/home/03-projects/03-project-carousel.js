@@ -13,8 +13,9 @@ import Project4 from './07-project4';
 import Project5 from './08-project5';
 import Project6 from './09-project6';
 
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+// style CDN added into html.js file
+// import 'slick-carousel/slick/slick.css';
+// import 'slick-carousel/slick/slick-theme.css';
 
 import * as Home from '../home.module.css';
 
