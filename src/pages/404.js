@@ -1,29 +1,34 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from 'react';
+import { Link } from 'gatsby';
 
 // styles
 const pageStyles = {
-  color: "#232129",
-  padding: "96px",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
+  paddingTop: '100px',
+};
 const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
+  textAlign: 'center',
+  color: '#007c91',
+  marginBottom: '2rem',
+};
 
 const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
+  textAlign: 'center',
+  marginBottom: '2rem',
+};
 
+const btnDiv = {
+  textAlign: 'center',
+  backgroundColor: '#00acc1',
+  width: '250px',
+  padding: '15px 30px',
+  borderRadius: '50px',
+  display: 'block',
+  margin: '3rem auto',
+};
+
+const btn = {
+  color: '#ffffff',
+};
 // markup
 const NotFoundPage = () => {
   return (
@@ -31,24 +36,15 @@ const NotFoundPage = () => {
       <title>Not found</title>
       <h1 style={headingStyles}>Page not found</h1>
       <p style={paragraphStyles}>
-        Sorry{" "}
-        <span role="img" aria-label="Pensive emoji">
-          😔
-        </span>{" "}
-        we couldn’t find what you were looking for.
-        <br />
-        {process.env.NODE_ENV === "development" ? (
-          <>
-            <br />
-            Try creating a page in <code style={codeStyles}>src/pages/</code>.
-            <br />
-          </>
-        ) : null}
-        <br />
-        <Link to="/">Go home</Link>.
+        Looks like you are lost. Lets get you back home.
       </p>
+      <div style={btnDiv}>
+        <Link style={btn} to='/'>
+          Go home
+        </Link>
+      </div>
     </main>
-  )
-}
+  );
+};
 
-export default NotFoundPage
+export default NotFoundPage;
