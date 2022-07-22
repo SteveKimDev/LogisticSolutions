@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://res.cloudinary.com/stevekim/image/upload/v1658516160/Logistic%20Solutions/cover-img_zq75qm.jpg" align="center" style="width: 100%" />
+<img src="https://res.cloudinary.com/stevekim/image/upload/v1658517841/Logistic%20Solutions/cover-img_ovcalc.jpg" align="center" style="width: 100%" />
 </div>  
   
 
